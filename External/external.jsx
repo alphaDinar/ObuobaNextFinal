@@ -9,8 +9,6 @@ export const iconFont = (props, col) => {
 export const presenterImg = 'https://res.cloudinary.com/dvnemzw0z/image/upload/v1695134281/RadioProject/y0tzv68llkfcrbtq9yke.jpg';
 
 export const getTimeSince = (date) => {
-  // console.log(new Date(date), new Date().getFullYear())
-
   const currentDate = new Date();
   const programDate = new Date(date);
   const timeElapsed = currentDate - programDate;
