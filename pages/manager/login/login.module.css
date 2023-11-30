@@ -1,0 +1,35 @@
+.page{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formBox{
+  border: 1px solid darkgray;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 20px;
+  border-radius: 15px;
+}
+.formBox input{
+  height: 30px;
+  width: 200px;
+  border-radius: 15px;
+  padding: 5px 15px;
+  border: 1px solid darkgray;
+}
+
+.formBox div{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.formBox button{
+  background: salmon;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
